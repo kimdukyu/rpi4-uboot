@@ -1,0 +1,10 @@
+make -j2 mrproper
+  CLEAN   tools
+  CLEAN   scripts/basic
+  CLEAN   tools/lib tools/common
+  CLEAN   scripts/dtc
+  CLEAN   u-boot-nodtb.bin u-boot.lds u-boot.cfg.configs u-boot.map u-boot.cfg u-boot.bin u-boot.srec u-boot u-boot.sym System.map
+  CLEAN   scripts/kconfig
+  CLEAN   include/config include/generated
+  CLEAN   .config .config.old include/autoconf.mk include/autoconf.mk.dep include/config.h
+Total compile time is 0 minutes 2 seconds
